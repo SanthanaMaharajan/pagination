@@ -1,0 +1,33 @@
+.App h1{
+  margin:1rem 0;
+  font-size: 60px;
+  color: blueviolet;
+  text-align: center;
+}
+.pagination{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.pagination button{
+  width: 30px;
+  height: 30px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 20px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: black;
+}
+
+.pagination button.active{
+  font-weight: 900;
+  transform: scale(1.1);
+  background-color: blueviolet;
+  color: #fff;
+  border-color: blueviolet;
+}
